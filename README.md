@@ -47,6 +47,10 @@ Meetings/      Meeting prep and notes
 
 The synthetic examples in `People/`, `Projects/`, `Actions/`, `Notes/`, and `Decisions/` show the expected file format, ID convention, and bidirectional-linking pattern.
 
+## Provenance
+
+The ontology is mine: the node and edge types, their fields, and the linking rules were worked out in exhaustive detail before the agent wrote anything. The files themselves — schemas, templates, examples — are agent-written, and I deliberately delegated the review as well as the writing: a repo whose premise is "the agent is the runtime" seemed like the right place to test whether agent-maintained artifacts hold up without me reading every line.
+
 ## License
 
 MIT — see `LICENSE`.
